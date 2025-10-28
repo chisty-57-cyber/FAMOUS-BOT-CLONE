@@ -26,7 +26,7 @@ module.exports = {
 				let img = res2.url
 
 				const form = {
-					body: `𝙳𝙸𝙳𝙰𝚁`
+					body: `𝐉𝐚𝐲 𝐏𝐚𝐫𝐤`
 
 				};
 				if (img)
