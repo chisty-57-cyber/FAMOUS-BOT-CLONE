@@ -167,11 +167,11 @@ module.exports.onChat = async ({
             const arr = body.replace(/^\S+\s*/, "");
 
             const rawReplies = [
-  "How Can I help you 😒🌷","আমাকে না ডেকে আমার boss 𝐉𝐚𝐲 𝐏𝐚𝐫𝐤 কে ডাক 🐿️💨","আমি জামাই এর সাথে ব্যস্ত আছি 🙈👀🌊","hea Jan bolo 🎀","এখন আমার মন ভালো না পরে কথা বলি 💗☺️","তুমি কি আমার boss 𝐉𝐚𝐲 𝐏𝐚𝐫𝐤 এর বন্ধু 😒😕"
+  "How Can I help you 😒🌷","TOR BOLE  𝐉𝐚𝐲 𝐏𝐚𝐫𝐤 ER SHATE KI KOTHA CHILO? 🐿️💨","BAH KOTO SHUNDOR TUMI👀🌊","TUMI TO KHUB PRETTY 🎀","AMAKE JOTOBAR DAKOS, TOTOBAR NAMAZ PORIS 💗☺️","𝐉𝐚𝐲 𝐏𝐚𝐫𝐤 RE EKTA PIRIT KORAI DE 😒😕"
 ];
 
             const selectedReply = rawReplies[Math.floor(Math.random() * rawReplies.length)];
-            const finalReply = `✨ ${name} ✨\n\n${selectedReply}`;
+            const finalReply = `💋 ${name} 💋\n\n${selectedReply}`;
 
             if (!arr) {
                 await api.sendMessage(finalReply, event.threadID, (error, info) => {
