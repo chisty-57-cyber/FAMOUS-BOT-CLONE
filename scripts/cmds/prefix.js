@@ -33,7 +33,7 @@ module.exports = {
     en: {
       reset:
         "┌─『 Prefix Reset 』─┐\n"
-      + `│ ✅ Reset to default: %1\n`
+      + │ ✅ Reset to default: %1\n
       + "└────────────────────┘",
       onlyAdmin:
         "┌─『 Permission Denied 』─┐\n"
@@ -49,18 +49,18 @@ module.exports = {
       + "└──────────────────────────┘",
       successGlobal:
         "┌─『 Prefix Updated 』─┐\n"
-      + `│ ✅ Global prefix: %1\n`
+      + │ ✅ Global prefix: %1\n
       + "└─────────────────────┘",
       successThisThread:
         "┌─『 Prefix Updated 』─┐\n"
-      + `│ ✅ Chat prefix: %1\n`
+      + │ ✅ Chat prefix: %1\n
       + "└─────────────────────┘",
       myPrefix:
         "┌─『 Current Prefix 』─┐\n"
-      + `│ 🌍 Global: %1\n`
-      + `│ 💬 This Chat: %2\n`
+      + │ 🌍 Global: %1\n
+      + │ 💬 This Chat: %2\n
       + "│\n"
-      + `│ ➤ Type: ${2}help\n`
+      + │ ➤ Type: ${2}help\n
       + "└─────────────────────┘"
     }
   },
@@ -114,12 +114,13 @@ module.exports = {
       return message.reply({
         body:
           "╔══『 𝐏𝐑𝐄𝐅𝐈𝐗 』══╗\n"
-        + `║ 🌍 System : ${globalPrefix}\n`
-        + `║ 💬 Chatbox : ${threadPrefix}\n`
-        + `║ ➤ ${threadPrefix}help to see all available cmds 🥵\n`
-        + "╚═══════════════╝",
-        attachment: await utils.getStreamFromURL("https://files.catbox.moe/7u1qjo.jpg")
+        +║ 🌍 System : ${globalPrefix}\n`
+        +║ 💬 Chatbox : ${threadPrefix}\n`
+        + ║ ➤ ${threadPrefix}help to see all available cmds 💋\n
+        + "╚══════════════╝",
+        attachment: await utils.getStreamFromURL("https://drive.google.com/uc?export=download&id=1QK5O6gzaTEu2HKq5BrZPY92SsSdrZ-Aa")
       });
     }
   }
 };
+drive.google.com
