@@ -2,17 +2,17 @@ const axios = require('axios');
 
 module.exports = {
 	config: {
-		name: "drive",
+		name: "drive2",
 		version: "1.0.2",
 		author: "IMRAN",
 		countDown: 5,
 		role: 0,
 		description: {
-			en: "Upload a video and add it to Google Drive"
+			en: "Upload a video and add it to Google Drive2"
 		},
 		category: "utility",
 		guide: {
-			en: "   {pn} <link>: Add video from link to Google Drive\n   Reply to a message with media to upload"
+			en: "   {pn} <link>: Add video from link to Google Drive2\n   Reply to a message with media to upload"
 		}
 	},
 
