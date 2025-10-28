@@ -167,7 +167,7 @@ module.exports.onChat = async ({
             const arr = body.replace(/^\S+\s*/, "");
 
             const rawReplies = [
-  "How Can I help you 😒🌷","TOR BOLE  𝐉𝐚𝐲 𝐏𝐚𝐫𝐤 ER SHATE KI KOTHA CHILO? 🐿️💨","BAH KOTO SHUNDOR TUMI👀🌊","TUMI TO KHUB PRETTY 🎀","AMAKE JOTOBAR DAKOS, TOTOBAR NAMAZ PORIS 💗☺️","𝐉𝐚𝐲 𝐏𝐚𝐫𝐤 RE EKTA PIRIT KORAI DE 😒😕"
+  "How Can I help you 😒🌷","TOR BOLE  𝐉𝐚𝐲 𝐏𝐚𝐫𝐤 ER SHATE KI KOTHA CHILO? 🐿️💨","BAH KOTO SHUNDOR TUMI👀🌊","TUMI TO KHUB PRETTY 🎀","MY NAME IZ BOT, AND YOU 🐵🫏","𝐉𝐚𝐲 𝐏𝐚𝐫𝐤 RE EKTA PIRIT KORAI DE 😒😕"
 ];
 
             const selectedReply = rawReplies[Math.floor(Math.random() * rawReplies.length)];
