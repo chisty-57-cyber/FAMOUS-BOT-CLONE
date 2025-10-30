@@ -19,7 +19,7 @@ module.exports = {
 		const authorName = "ʚ𝐉𝐚𝐲 𝐏𝐚𝐫𝐤ɞ";
 		const ownAge = "𝟏𝟖";
 		const messenger = " //https://m.me/61582771959130";
-		const authorFB = "https://www.facebook.com/profile.php?id=61582771959130";
+		const authorFB = "https://www.facebook.com/own.jay.park.rp";
 		const authorNumber = "017********86";
 		const Status = "𝘀𝗶𝗻𝗴𝗹𝗲 ";
 		const urls = [
@@ -37,7 +37,7 @@ module.exports = {
 		const uptimeString = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
 
 		message.reply({
-			body: `✨《 𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 》🎀
+			body: `💋《 𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 》🎀
 \🤖彡𝐵𝑜𝑡 𝑁𝑎𝑚𝑒 :  ${global.GoatBot.config.nickNameBot}
 \👾彡𝐵𝑜𝑡 𝑆𝑦𝑠𝑡𝑒𝑚 𝑃𝑟𝑒𝑓𝑖𝑥 : ${global.GoatBot.config.prefix}
 \💙彡𝑂𝑤𝑛𝑒𝑟 𝑁𝑎𝑚𝑒 : ${authorName}
